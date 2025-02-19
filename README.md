@@ -16,7 +16,6 @@ Customer segmentation is a vital technique for improving business strategies. By
    - [Model Evaluation](#model-evaluation)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
-6. [LinkedIn Post](#linkedin-post)
 
 ---
 
@@ -104,7 +103,7 @@ We evaluated the clustering quality using the **Silhouette Score**, which measur
 
 The **Elbow Method** revealed that the optimal number of clusters is **5**, as indicated by the "elbow" in the plot.
 
-![Elbow Method](images/elbow_method.png)  
+![Elbow Method](./assets/Elbow_Methodpng.png)  
 *Figure 1: Elbow Method to Determine the Optimal Number of Clusters*
 
 ### **Silhouette Score** 🌟
@@ -124,7 +123,7 @@ The customer segments were visualized using a scatter plot:
 - Each cluster is represented by a unique color.
 - The **red** points mark the **cluster centroids**, which are the center points of each customer group.
 
-![Customer Segments](images/customer_segments.png)  
+![Customer Segments](./assets/Clusteringpng.png)  
 *Figure 2: Visualization of Customer Segments*
 
 ---
@@ -141,29 +140,3 @@ By understanding these segments, businesses can:
 The **5 clusters** we identified represent a diverse range of customer profiles, each with distinct income and spending behaviors. These insights can directly inform marketing campaigns, product offerings, and customer engagement strategies.
 
 ---
-
-## **LinkedIn Post** 📢
-
-🚀 Excited to share my latest project on **Customer Segmentation using K-Means Clustering**! 🎉
-
-In this project, I used the K-Means clustering algorithm to segment customers based on their **annual income** and **spending score**. The goal was to identify distinct customer groups to help businesses tailor their marketing strategies.
-
-🔍 **Key Steps**:
-1. **Data Preprocessing**: Cleaned the data, handled outliers, and scaled numerical features.
-2. **K-Means Clustering**: Applied the Elbow Method to determine the optimal number of clusters.
-3. **Model Evaluation**: Evaluated the clusters using the silhouette score.
-
-📊 **Results**:
-- The optimal number of clusters was found to be **5**.
-- The silhouette score showed that the clusters were **well-defined**.
-
-💡 **Conclusion**:
-Customer segmentation is a powerful tool for businesses to understand their customers better and tailor their marketing strategies. This project demonstrates the effectiveness of K-Means clustering in achieving this goal.
-
-Check out the detailed project on my **GitHub**: [GitHub Link](#)
-
-#DataScience #MachineLearning #CustomerSegmentation #KMeansClustering #Python #DataAnalysis
-
----
-
-This updated version of the `README.md` removes the code section and provides more focus on the details of the **K-Means clustering** process, the evaluation of the clusters, and the resulting customer segments.
